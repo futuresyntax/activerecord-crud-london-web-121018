@@ -19,7 +19,7 @@ describe 'Movie' do
     end
 
     it 'has a release date' do
-      movie.release_date = 1999
+      movie.release_date do 1999
       expect(movie.release_date).to eq(1999)
     end
 
@@ -154,4 +154,4 @@ describe 'Movie' do
       end
     end
   end
-end
+end 
